@@ -67,9 +67,9 @@ def create_data_dd(x_ini, x_end, ne, max_geom_factor=5000):
 		ne_temp = int(np.ceil(ne / d_AB))
 		for j in range(ne_temp):
 			d_BM = d_AB
-			ne_temp = ne_temp - 1
 			d_BM_max = (ne_temp - 3) * d_AB
-			while d_BM < d_BM_max:
+			ne_temp = ne_temp - 1
+			while d_BM <= d_BM_max:
 				a = j * d_AB 
 				b = j * d_AB + d_AB
 				m = j * d_AB + d_AB + d_BM
@@ -119,9 +119,9 @@ def create_data_slm(x_ini, x_end, ne, max_geom_factor=5000):
 		ne_temp = int(np.ceil(ne / d_AM))
 		for j in range(ne_temp):
 			d_MN = d_AM
-			ne_temp = ne_temp - 1
 			d_MN_max = (ne_temp - 3) * d_AM
-			while d_MN < d_MN_max:
+			ne_temp = ne_temp - 1
+			while d_MN <= d_MN_max:
 				a = j * d_AM 
 				m = j * d_AM + d_AM
 				n = j * d_AM + d_AM + d_MN
