@@ -1,7 +1,7 @@
 # ERT_toolbox_CURE
 Electrical Resistivity Tomography (ERT) toolbox CURE project
 
-This repository is part of an ongoing project which aims at characterizing the water content in landfills. The toolbox is written in python and does not require any special package to run. At the moment, the toolbox contains:
+This repository is part of an ongoing project which aims at characterizing the water content in landfills. The toolbox is written in pure python and does not require any special package to run. At the moment, the toolbox contains:
 
 - Function to generate a dipole-dipole array that can be input in a Syscal Pro unit
 - Function to generate a survey file for the Kragge landfill
