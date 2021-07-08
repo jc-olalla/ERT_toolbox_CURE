@@ -1,5 +1,5 @@
 # ERT_toolbox_CURE
-ERT toolbox CURE project
+Electrical Resistivity Tomography (ERT) toolbox CURE project
 
 This repository is part of an ongoing project which aims at characterizing the water content in landfills. The toolbox is written in python and does not require any special package to run. At the moment, the toolbox contains:
 
